@@ -2,14 +2,49 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 250px;
+}
+.hero {
+    display: flex;
+    margin: 25px 250px;
+    flex-direction: row;
+    flex: none;
+    justify-content: space-between;
+ 
 
+    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    
+
+}
 .main {
     font-size: 48px;
+    margin: 0px;
 }
 
 .sub {
     color: #E5e7eb;
+}
+.header-links {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
 button {
@@ -21,4 +56,6 @@ button {
     color: white;
     font-size: 18px;
     font-weight: bold;
+    max-width: 100px;
+    
 }
