@@ -82,9 +82,20 @@ button {
 .info-main {
     display: flex;
     color: #1f2937;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 50px;
 
+}
+.team-info {
+    max-width: 250px;
+}
+.team-info img {
+    height: 225px;
+    width: 250px;
+    border: #3882f6 5px solid;
 }
 
 
