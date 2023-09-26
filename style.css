@@ -96,10 +96,24 @@ button {
     height: 225px;
     width: 250px;
     border: #3882f6 5px solid;
+    border-radius: 10px;
 }
 
 .quote {
+    display: flex;
     background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+}
+
+.quote-main {
+    width: 1000px;
+    margin: 50px;
+}
+.quotee {
+    font-weight: bold;
 }
 
 
