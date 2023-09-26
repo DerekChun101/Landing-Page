@@ -4,21 +4,38 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    margin: 25px 400px;
+    margin: 0px;
+    padding: 0px;
+    
 }
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin: 25px 100px;
    
+}
+.title {
+    width: 500px;
+}
+.header-links {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 500px;
+    justify-content: flex-end;
 }
 .hero {
     display: flex;
-    margin-top: 100px;
+    margin: 100px 100px;
     flex-direction: row;
     flex: none;
-    justify-content: space-between;
+    justify-content: space-around;
  
 
     
@@ -38,15 +55,7 @@ body {
 .sub {
     color: #E5e7eb;
 }
-.header-links {
-    text-decoration: none;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
+
 
 button {
     background-color: #3882f6;
@@ -62,8 +71,20 @@ button {
 }
 .info {
     margin-top: 100px;
+    background-color: #f9faf8;
 }
 .info-header {
     font-size: 36px;
     text-align: center;
+    font-weight: bolder;
+    color: #1f2937;
 }
+.info-main {
+    display: flex;
+    color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
