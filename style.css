@@ -116,4 +116,31 @@ button {
     font-weight: bold;
 }
 
+.call-to-action {
+
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+    padding: 100px;
+}
+
+.call-main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 60px 110px;
+    width: 1300px;
+}
+.call-text p {
+    margin: 0px;
+}
+
+.call-main button {
+    border:solid 2px white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
 
